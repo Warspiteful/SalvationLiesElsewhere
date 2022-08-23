@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unlocked: 0
   completed: {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
-  condition: {fileID: 11400000, guid: 6a540126b50c2174f8f55dec152dba10, type: 2}
+  condition:
+    conditionalType: 0
+    _EventFlag: {fileID: 11400000, guid: bd6a6295ac3f0fb43808f9449e8fe4ec, type: 2}
+    _EventList: []
+    description: 
   onButtonPress:
     m_PersistentCalls:
       m_Calls:

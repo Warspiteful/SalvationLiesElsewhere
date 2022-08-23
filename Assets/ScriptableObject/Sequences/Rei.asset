@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Rei
   m_EditorClassIdentifier: 
   sequence: []
-  RevealCondition: {fileID: 11400000, guid: 6a540126b50c2174f8f55dec152dba10, type: 2}
+  activeFlag: {fileID: 0}
+  RevealCondition:
+    conditionalType: 0
+    _EventFlag: {fileID: 11400000, guid: bd6a6295ac3f0fb43808f9449e8fe4ec, type: 2}
+    _EventList: []
+    description: 

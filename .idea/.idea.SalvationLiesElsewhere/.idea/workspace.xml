@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86038e40-a155-4913-85cf-032ec850e1fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaCaveIn.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaCaveIn.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaRescue.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaRescue.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiShipDock.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiShipDock.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/CharacterLocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/CharacterLocker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/ApplicationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/ApplicationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalvationLiesElsewhere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalvationLiesElsewhere/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nea/NeaScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nea/NeaScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/Default.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/Default.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/LanMet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/LanMet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/NeaCaveInRequired.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Conditions/NeaCaveInRequired.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaCaveInEvent.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaCaveInEvent.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaSavedLan.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaSavedLan.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaFlag1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaFlag1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaStart.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaStart.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Lan.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Lan.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Nea.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Nea.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Rei.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Rei.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/Conditional.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/Conditional.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/UnlockFlag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObject/UnlockFlag.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/BoolVariable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/BoolVariable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/IntVariable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/IntVariable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/ScriptableObjectVariable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/ScriptableObjectVariables/ScriptableObjectVariable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661220382142</updated>
       <workItem from="1661220391410" duration="6499000" />
-      <workItem from="1661228640245" duration="1418000" />
+      <workItem from="1661228640245" duration="2001000" />
+      <workItem from="1661278113684" duration="808000" />
     </task>
     <servers />
   </component>

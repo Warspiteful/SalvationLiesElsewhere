@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efed8b0f32f70944b86a45b9bad9da71, type: 3}
-  m_Name: NeaCaveInRequired
+  m_Script: {fileID: 11500000, guid: 40eb994e021cd884eba8374e81879ab0, type: 3}
+  m_Name: ReiFindsCamp
   m_EditorClassIdentifier: 
-  conditionalType: 0
-  _EventFlag: {fileID: 11400000, guid: bd6a6295ac3f0fb43808f9449e8fe4ec, type: 2}
-  _EventList: []
-  description: 
+  value: 0

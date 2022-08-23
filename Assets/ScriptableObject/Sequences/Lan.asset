@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Lan
   m_EditorClassIdentifier: 
   sequence: []
-  RevealCondition: {fileID: 11400000, guid: d0b9bc543221c3840b4e17831291d10d, type: 2}
+  activeFlag: {fileID: 0}
+  RevealCondition:
+    conditionalType: 0
+    _EventFlag: {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
+    _EventList: []
+    description: 

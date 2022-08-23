@@ -1,12 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
 public enum ConditionalType {Event, Constant, MultiEvent};
-
-[CreateAssetMenu]   
-public class Conditional : ScriptableObject
+  
+[Serializable]
+public class Conditional
 {
     
     [Tooltip("Type of condition bound to this object.")]
