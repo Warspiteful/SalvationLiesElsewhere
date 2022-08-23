@@ -13,7 +13,7 @@ public class ApplicationManager : ScriptableObject
     
     public void LoadNeaLevel1()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(1,LoadSceneMode.Single);
     }
     
     public void LoadNeaLevel2()

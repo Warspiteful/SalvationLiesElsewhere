@@ -6,14 +6,9 @@ using UnityEngine.UI;
 
 public class CharacterLocker : MonoBehaviour
 {
-    public List<UnlockFlag> flags;
+    [SerializeField]
+    private UnlockFlagSequences sequence;
     
-    [SerializeField] private IntVariable flagIndex;
-
-    [SerializeField] private BoolVariable unlocked;
-
-    private UnlockFlag activeFlag;
-
     [SerializeField]
     private LayoutElement _layout;
 
@@ -21,37 +16,47 @@ public class CharacterLocker : MonoBehaviour
 
     [SerializeField] private GameObject graphics;
 
+    private void Start()
+    {
+        SetRevealStatus();
+    }
+
     private void OnEnable()
     {
-        unlocked.ValueUpdated += SetRevealStatus;
-        flagIndex.ValueUpdated += SetActiveFlag;
+        sequence.RevealUpdated += SetRevealStatus;
+        sequence.OnDataUpdate += UpdateSettings;
     }
 
     private void OnDisable()
     {
-        unlocked.ValueUpdated -= SetRevealStatus;   
-        flagIndex.ValueUpdated -= SetActiveFlag;
+        sequence.RevealUpdated -= SetRevealStatus;   
+        sequence.OnDataUpdate -= UpdateSettings;
     }
 
-    private void SetActiveFlag()
+    private void UpdateSettings()
     {
-        activeFlag = flags[flagIndex.Value];
+        SetActive();
     }
 
-    private void UpdateLock()
+    private void SetDescription()
     {
-        characterEnable.interactable = activeFlag.Flag;
+        
     }
 
+    private void SetActive()
+    {
+        characterEnable.interactable = sequence.GetActive();
+    }
+    
     private void SetRevealStatus()
     {
-        _layout.ignoreLayout = !unlocked.Value;
-        graphics.SetActive(unlocked.Value);
+        _layout.ignoreLayout = !sequence.CanReveal();
+        graphics.SetActive(sequence.CanReveal());
     }
 
-    public void onButtonPress()
+    public void OnButtonPress()
     {
-        activeFlag.onButtonPress.Invoke();
+        sequence.GetButtonEvents().Invoke();
     }
     
     
