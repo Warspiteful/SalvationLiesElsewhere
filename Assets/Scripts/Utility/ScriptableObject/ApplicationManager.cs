@@ -18,41 +18,41 @@ public class ApplicationManager : ScriptableObject
     
     public void LoadNeaLevel2()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(2,LoadSceneMode.Single);
     }
     
     public void LoadNeaLevel3()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(3,LoadSceneMode.Single);
     }
     
     public void LoadReiLevel1()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(4,LoadSceneMode.Single);
     }
     
     public void LoadReiLevel2()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(5,LoadSceneMode.Single);
     }
     
     public void LoadReiLevel3()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(6,LoadSceneMode.Single);
     }
     
     public void LoadLanLevel1()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(7,LoadSceneMode.Single);
     }
     
     public void LoadLanLevel2()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(8,LoadSceneMode.Single);
     }
     
     public void LoadLanLevel3()
     {
-        SceneManager.LoadScene(0,LoadSceneMode.Single);
+        SceneManager.LoadScene(9,LoadSceneMode.Single);
     }
 }

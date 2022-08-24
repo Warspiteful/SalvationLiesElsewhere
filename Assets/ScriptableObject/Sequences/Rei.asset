@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c78d06c2372e64a8f3b04937ac2e74, type: 3}
   m_Name: Rei
   m_EditorClassIdentifier: 
-  sequence: []
+  sequence:
+  - {fileID: 11400000, guid: 20288aee057612c49b966dc3e5450536, type: 2}
+  - {fileID: 11400000, guid: 751fb0737ede71e4f9d7fe2ebd00ab1d, type: 2}
+  - {fileID: 11400000, guid: 1d28d82f4de9e4641a486dbcfbeeffee, type: 2}
   activeFlag: {fileID: 0}
   RevealCondition:
     conditionalType: 0

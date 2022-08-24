@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13a5788600ecb364583c943ea944f214, type: 3}
-  m_Name: NeaStart
+  m_Name: NeaScene1
   m_EditorClassIdentifier: 
   unlocked: 1
   completed: {fileID: 11400000, guid: bd6a6295ac3f0fb43808f9449e8fe4ec, type: 2}

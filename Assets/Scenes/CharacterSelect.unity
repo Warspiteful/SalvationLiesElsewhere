@@ -267,7 +267,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 834373623}
         m_TargetAssemblyTypeName: CharacterLocker, Assembly-CSharp
-        m_MethodName: onButtonPress
+        m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1257,7 +1257,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 657059892}
         m_TargetAssemblyTypeName: CharacterLocker, Assembly-CSharp
-        m_MethodName: onButtonPress
+        m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
