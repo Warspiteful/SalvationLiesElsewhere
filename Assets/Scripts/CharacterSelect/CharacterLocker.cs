@@ -13,6 +13,8 @@ public class CharacterLocker : MonoBehaviour
     private LayoutElement _layout;
 
     [SerializeField] private Button characterEnable;
+    
+    [SerializeField] private GameObject UnlockButton;
 
     [SerializeField] private GameObject graphics;
 
@@ -35,7 +37,15 @@ public class CharacterLocker : MonoBehaviour
 
     private void UpdateSettings()
     {
-        SetActive();
+        if(!sequence.Completed){
+            SetActive();
+            EnableUnlockButton();
+        }
+        else
+        {
+            characterEnable.interactable = false;
+            UnlockButton.SetActive(false);
+        }
     }
 
     private void SetDescription()
@@ -54,9 +64,19 @@ public class CharacterLocker : MonoBehaviour
         graphics.SetActive(sequence.CanReveal());
     }
 
+    private void EnableUnlockButton()
+    {
+        UnlockButton.SetActive(sequence.CanBeUnlocked());
+    }
+
     public void OnButtonPress()
     {
         sequence.GetButtonEvents().Invoke();
+    }
+
+    public void UnlockFlag()
+    {
+        sequence.UnlockFlag();
     }
     
     

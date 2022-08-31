@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a5788600ecb364583c943ea944f214, type: 3}
   m_Name: NeaScene2
   m_EditorClassIdentifier: 
-  unlocked: 0
+  unlocked: 1
   completed: {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
   condition:
     conditionalType: 0

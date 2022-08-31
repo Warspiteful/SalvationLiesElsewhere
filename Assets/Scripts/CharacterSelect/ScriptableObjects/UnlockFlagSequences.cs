@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -20,25 +21,26 @@ public class UnlockFlagSequences : ScriptableObject
     
     public VariableUpdated RevealUpdated;
 
+    public bool Completed;
 
+    private bool initialized = false;
 
     public void SetActiveFlag()
     {
         foreach (UnlockFlag flag in sequence)
         {
-            Debug.Log(flag.name + ": " + flag.isComplete());
             if (!flag.isComplete())
             {
-      
-                
                 activeFlag = flag;
                 break;
             }
         }
         
-        if(activeFlag != null){
-            OnDataUpdate?.Invoke();
+        if(activeFlag == null)
+        {
+            Completed = true;
         }
+        OnDataUpdate?.Invoke();
     }
 
     public bool CanBeUnlocked()

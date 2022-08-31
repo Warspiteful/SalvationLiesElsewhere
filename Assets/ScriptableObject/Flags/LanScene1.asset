@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a5788600ecb364583c943ea944f214, type: 3}
   m_Name: LanScene1
   m_EditorClassIdentifier: 
-  unlocked: 0
+  unlocked: 1
   completed: {fileID: 11400000, guid: 4d8808c745b867b4c87b90b886281e7c, type: 2}
   condition:
     conditionalType: 2

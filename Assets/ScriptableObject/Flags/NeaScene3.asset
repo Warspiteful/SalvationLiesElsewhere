@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a5788600ecb364583c943ea944f214, type: 3}
   m_Name: NeaScene3
   m_EditorClassIdentifier: 
-  unlocked: 0
-  completed: {fileID: 0}
+  unlocked: 1
+  completed: {fileID: 11400000, guid: 59dd4f74d975db84bb7ac1c6e3c98af0, type: 2}
   condition:
     conditionalType: 2
     _EventFlag: {fileID: 0}
     _EventList:
-    - {fileID: 11400000, guid: 3a6eaff894f246a43a65356cf8903988, type: 2}
-    - {fileID: 11400000, guid: 4d8808c745b867b4c87b90b886281e7c, type: 2}
+    - {fileID: 11400000, guid: ac9c08473ffae8146a28c35333503911, type: 2}
+    - {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
     description: 
   onButtonPress:
     m_PersistentCalls:

@@ -16,9 +16,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 607848b26c12b6f4285d9426503a694e, type: 2}
   - {fileID: 11400000, guid: 8f14b8a232411ba4e95b35a8fb6eb354, type: 2}
   - {fileID: 11400000, guid: 812c7839dfcc14743b04b3b1f5ef7eb6, type: 2}
-  activeFlag: {fileID: 0}
+  activeFlag: {fileID: 11400000, guid: 8f14b8a232411ba4e95b35a8fb6eb354, type: 2}
   RevealCondition:
     conditionalType: 1
     _EventFlag: {fileID: 0}
     _EventList: []
     description: 
+  Completed: 0
+  initialized: 0
+  index: 1
