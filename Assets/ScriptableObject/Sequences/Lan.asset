@@ -16,7 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 423bd96057921e849b3b27bda8794a04, type: 2}
   - {fileID: 11400000, guid: ab6c16df7019ad04e832bea4e14e50b4, type: 2}
   - {fileID: 11400000, guid: d70320628360a9349890ea4b171fe64f, type: 2}
-  activeFlag: {fileID: 11400000, guid: 423bd96057921e849b3b27bda8794a04, type: 2}
+  activeFlag: {fileID: 11400000, guid: d70320628360a9349890ea4b171fe64f, type: 2}
   RevealCondition:
     conditionalType: 2
     _EventFlag: {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
@@ -24,6 +24,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: f4bcacb106da65e49927b2384581ba93, type: 2}
     - {fileID: 11400000, guid: ac9c08473ffae8146a28c35333503911, type: 2}
     description: 
-  Completed: 0
-  initialized: 0
-  index: 0
+  Completed: 1
+  index: 2

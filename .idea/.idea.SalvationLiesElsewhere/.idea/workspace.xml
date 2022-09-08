@@ -6,26 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86038e40-a155-4913-85cf-032ec850e1fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalvationLiesElsewhere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalvationLiesElsewhere/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/LanScene1Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/LanScene1Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/LanScene2Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/LanScene2Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene1Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene1Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene2Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene2Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene3Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/NeaScene3Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene1Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene1Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene2Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene2Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene3Complete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Events/ReiScene3Complete.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/LanScene1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/LanScene1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/LanScene2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/LanScene2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaScene2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaScene2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaScene3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/NeaScene3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Flags/ReiScene3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Lan.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Lan.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Nea.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Nea.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Rei.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Sequences/Rei.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/CharacterLocker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/CharacterLocker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/ScriptableObjects/UnlockFlagSequences.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect/ScriptableObjects/UnlockFlagSequences.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +81,8 @@
       <workItem from="1661278113684" duration="808000" />
       <workItem from="1661325856236" duration="384000" />
       <workItem from="1661372988031" duration="7290000" />
+      <workItem from="1662591595414" duration="11000" />
+      <workItem from="1662652602424" duration="1654000" />
     </task>
     <servers />
   </component>

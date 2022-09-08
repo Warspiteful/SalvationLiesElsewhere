@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -25,21 +26,39 @@ public class UnlockFlagSequences : ScriptableObject
 
     private bool initialized = false;
 
+    [SerializeField] private int index;
+
+   
     public void SetActiveFlag()
     {
-        foreach (UnlockFlag flag in sequence)
+        if (!Completed)
         {
-            if (!flag.isComplete())
+            if (activeFlag == null)
             {
-                activeFlag = flag;
-                break;
+                foreach (var flag in sequence.Select((value, i) => new { i, value }))
+                {
+                    if (!flag.value.isComplete())
+                    {
+                        activeFlag = flag.value;
+                        index = flag.i;
+                        break;
+                    }
+                }
             }
+            else if (activeFlag.isComplete())
+                {
+                    if (index + 1 < sequence.Count)
+                    {
+                        activeFlag = sequence[index + 1];
+                        index += 1;
+                    }
+                    else
+                    {
+                        Completed = true;
+                    }
+                }
         }
-        
-        if(activeFlag == null)
-        {
-            Completed = true;
-        }
+
         OnDataUpdate?.Invoke();
     }
 
