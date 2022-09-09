@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,8 @@ public class CharacterLocker : MonoBehaviour
     [SerializeField] private GameObject UnlockButton;
 
     [SerializeField] private GameObject graphics;
+    
+    [SerializeField] private TMP_Text description;
 
     private void Start()
     {
@@ -40,6 +43,7 @@ public class CharacterLocker : MonoBehaviour
         if(!sequence.Completed){
             SetActive();
             EnableUnlockButton();
+            SetDescription();
         }
         else
         {
@@ -50,7 +54,7 @@ public class CharacterLocker : MonoBehaviour
 
     private void SetDescription()
     {
-        
+        description.text = sequence.GetDescription();
     }
 
     private void SetActive()
