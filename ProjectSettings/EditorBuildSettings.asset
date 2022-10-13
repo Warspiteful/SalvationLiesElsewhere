@@ -6,6 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/CharacterSelect.unity
+    guid: fab2cc6f48f71aa47986cf89b0da7324
+  - enabled: 1
+    path: Assets/Scenes/Nea/StartToMountain.unity
+    guid: 15c03e3a0bd269241a7fdf2b6afb31c8
+  - enabled: 1
+    path: Assets/Scenes/Nea/MountainToCamp.unity
+    guid: 305e6244b9a0b5447b0d31253c9d9e5a
+  - enabled: 1
+    path: Assets/Scenes/Nea/CampToFight.unity
+    guid: e3c2cdce5ef8c8b4b8536c970e0f2316
+  - enabled: 1
+    path: Assets/Scenes/Rei/StartToShip.unity
+    guid: 1910d3fa2e3610e4485cd0a516b891af
+  - enabled: 1
+    path: Assets/Scenes/Rei/ShipToCamp.unity
+    guid: 638b28b72a709754da77cddffefdf91d
+  - enabled: 1
+    path: Assets/Scenes/Rei/CampToFight.unity
+    guid: d53dbd85cb5c9c74b8cb12952dbc5143
+  - enabled: 1
+    path: Assets/Scenes/Lan/ShipToMountain.unity
+    guid: 70355a35aa296a4499e938db72bcc577
+  - enabled: 1
+    path: Assets/Scenes/Lan/MountainToCamp.unity
+    guid: 01dcc3d584b9c02469c8135abb04ac6e
+  - enabled: 1
+    path: Assets/Scenes/Lan/CampToFight.unity
+    guid: b4f59830261759d4696b5946f869c752
   m_configObjects: {}
