@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40eb994e021cd884eba8374e81879ab0, type: 3}
   m_Name: NeaScene2Complete
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
